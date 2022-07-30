@@ -1,3 +1,3 @@
 Celebal Tasks
 
-celebal-blog-task.netlify.app
+https://celebal-blog-task.netlify.app/
