@@ -1,3 +1,3 @@
 Celebal Tasks
 
-celebal-task-guess-my-number.netlify.app
+https://celebal-task-guess-my-number.netlify.app/
