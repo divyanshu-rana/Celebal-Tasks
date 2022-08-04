@@ -295,4 +295,77 @@ footer {
   height: 60vh;
   width: 100vw;
   background-color: var(--footer-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.footer-top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 90%;
+  flex-basis: 80%;
+  padding: 4% 0%;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-nav,
+.footer-nav-links{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav{
+  flex-basis: 15%;
+  height: 100%;
+  row-gap: 0.5rem;
+}
+
+.footer-nav-head{
+  flex-basis: 15%;
+  font-size: 1.3rem;
+}
+
+.footer-nav-links{
+  flex-basis: 75%;
+  row-gap: 0.3rem;
+}
+
+.footer-nav-links a{
+  text-decoration: none;
+  color: var(--white);
+  width: fit-content;
+  opacity: 0.6;
+  font-weight: 100;
+  font-size: 0.9rem;
+  row-gap: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-nav-links a:hover{
+  opacity: 1;
+  transform: translate3d(1px,-1px,1px);
+}
+
+.footer-bottom{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-basis: 20%;
+  justify-content: space-between;
+}
+
+.footer-bottom p{
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.fb-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 18%;
 }
