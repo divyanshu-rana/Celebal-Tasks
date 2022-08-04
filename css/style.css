@@ -200,11 +200,38 @@ html {
 #industry,
 #technological,
 #innovations {
+  position: relative;
   padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   align-items: center;
+}
+
+.section-bg {
+  position: absolute;
+  width: 40%;
+  z-index: -9;
+}
+
+.bg-tr {
+  top: -3.4rem;
+  right: -6.2rem;
+}
+
+.bg-bl {
+  bottom: -3.1rem;
+  left: -12.5rem;
+}
+
+.bg-br{
+  bottom: -10.3rem;
+  right: -10.9rem;
+}
+
+.bg--bl{
+  bottom: 1.9rem;
+    left: -6.8rem;
 }
 
 .title {
@@ -230,6 +257,7 @@ html {
 
 .card {
   height: 57vh;
+  background-color: var(--white);
   flex-basis: 25%;
   border: 0.5px solid rgb(196, 196, 196, 0.5);
   border-radius: 9px;
@@ -238,8 +266,8 @@ html {
   transition: 0.2s ease-in;
 }
 
-.card:hover{
-    transform: scale3d(1.05,1.05,1.05);
+.card:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
 }
 
 .card-img,
@@ -262,28 +290,9 @@ html {
 }
 
 /* _______________________________________________ Footer _______________________________________________ */
-#footer {
-  height: 8vh;
+
+footer {
+  height: 60vh;
   width: 100vw;
   background-color: var(--footer-bg);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#footer a {
-  color: var(--white);
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.tnc {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 20%;
-}
-
-.copyright {
-  flex-basis: 50%;
-  text-align: end;
 }
